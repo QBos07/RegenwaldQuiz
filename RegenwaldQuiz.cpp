@@ -13,11 +13,11 @@ RegenwaldQuiz::RegenwaldQuiz(QWidget *parent)
     connect(ui.pushButton, SIGNAL(clicked()), this, SLOT(weiter()));
 
     ASK(" 1. In welcher Klimazone liegt der tropische Regenwald?", u8"\u00C4quatoriale Klimazone", true, "Zone des tropischen Weschelklimas", true, "Ger keine", false);
-    ASK(" 2. Wie ist es im tropischen Regenwald?", u8"schw\u00FChl", true, u8"dr\u00FCckend heiﬂ", true, "feucht", true);
+    ASK(" 2. Wie ist es im tropischen Regenwald?", u8"schw\u00FChl", true, u8"dr\u00FCckend hei\u00DF", true, "feucht", true);
     ASK(u8" 3. Wie ver\u00E4ndert sich der Lichteinfall zum Boden hin?", u8"Er wird schw\u00E4cher", true, "Er wird mehr", false, "Er bliebt gleich", false);
-    ASK(u8" 4. Wie ver\u00E4ndert sich die Temperatur zum Boden hin?", u8"Es wird heiﬂer", false, u8"Es wird k\u00FChler", true, "Es bleibt gleich", false);
+    ASK(u8" 4. Wie ver\u00E4ndert sich die Temperatur zum Boden hin?", u8"Es wird hei\u00DFer", false, u8"Es wird k\u00FChler", true, "Es bleibt gleich", false);
     ASK(u8" 5. Wie ver\u00E4ndert sich die Luftfeuchtigkeit zum Boden hin?", "Sie bleibt gleich", false, "Sie wird weniger", false, "Sie wird mehr", true);
-    ASK(" 6. Wie ist die Tierwelt?", "groﬂ", true, "klein", false,"unterschiedlich", true);
+    ASK(" 6. Wie ist die Tierwelt?", "gro\u00DF", true, "klein", false,"unterschiedlich", true);
     ASK(u8" 7. Wie hoch ist die h\u00F6chste Schicht?", "30m", false, "40m", false, "50m", false);
     ASK(" 8. Was ist der Wichtigste Geofaktor?", "Boden", false, "Klima", true, "Bios", false);
     ASK(" 9. Was ist die Maximum und die minimum Temperatur?", u8"30 \u00B0C", false, u8"35 \u00B0C", true, u8"25 \u00B0C", true);
