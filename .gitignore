@@ -526,3 +526,6 @@ FodyWeavers.xsd
 *.tlog
 
 # End of https://www.toptal.com/developers/gitignore/api/qt,visualstudio,c,c++,windows,linux
+
+[Ff]ragebogen.txt
+[Ll]oesungen.txt
